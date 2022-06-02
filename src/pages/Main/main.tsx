@@ -1,6 +1,6 @@
-import { Avatar } from "../../components/Avatar/avatar";
+import Avatar from "../../components/Avatar/avatar";
 
-export function Main() {
+export default function Main() {
   return (
     <div className="flex flex-col gap-4 justify-center items-center h-screen">
       <h1 className="text-6xl font-extrabold">Christian Martins</h1>
